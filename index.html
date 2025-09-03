@@ -3,70 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <link rel="stylesheet" href="profile.css">
+    <title>Document</title>
 </head>
-<body> 
-    <img src="cheska.jfif" alt="Cheska Nanlabi" style="width: 200px; height: 200px; border-radius: 50%; display: block; margin: auto;">
-    <h1 style="text-align: center;"> My Profile </h1>
-    <hr style="border: 1px solid rgb(42, 4, 51); width: 100%; margin: bottom;">  
-      <table>
-         <tr style="text-align: center;">
-         <td colspan="6"> Information </td>
-        </tr>
-        <tr>
-             <th> Name </th>
-             <th> Age </th>
-             <th> Grade </th>
-             <th> Section </th>
-             <th> Sex </th>
-             <th> Strand </th>
-        </tr>
-        <tr style="text-align: center;">
-            <td> Cheska Nanlabi </td>
-            <td> 16 </td>
-            <td> 11 </td>
-            <td> Competence </td>
-            <td> Female </td>
-            <td> TVL-ICT Programming </td>
-        </tr>
-        <tr style="text-align: center;">
-            <td colspan="6"> About </td>
-        </tr>
-        <tr> 
-            <th> Achievements </th>
-            <th> Interests </th>
-            <th> Hobbies </th>
-            <th> Skills </th>
-            <th> Goals </th>
-            <th> Education </th>
-        </tr>
-        <tr style="text-align: center;">
-            <td> Achiever Since Elementary </td>
-            <td> Playing Musical Instruments, Reading Books, Solving Puzzles, Baking and Fashion Styling </td>
-            <td> Calligraphy, Reading Non-Fiction Books, Solving Crosswords </td>
-            <td> Calligraphies and Solving Crossword Puzzles </td>
-            <td> To have a Stable Job and Live Comfortably </td>
-            <td> Cielito Zamora Senior High School (Programming) </td>
-        </tr>
-        </table>
-    <hr style="border: 1px solid rgb(42, 4, 51); width: 100%; margin: bottom;"> 
-    <h1> Links of My Activities </h1>
-    <a href="chesresume.html"><h3>My Resume Activity</h3></a><br>
-    <a href="chesbasics.html"> <h3> My Basics Activity</h3></a><br>
-    <a href="activity.html"> <h3> Activity in .Net </h3></a><br>
-    <a href="attributes.html"> <h3> My Attributes Activity </h3></a><br>
-    <a href="color.html"> <h3> My Color Activity </h3></a><br>
-    <a href="quiz 1 page1.html"> <h3> My Quiz 1 Page 1 </h3></a><br>
-    <a href="quiz1page2.html"> <h3> My Quiz 1 Page 2 </h3></a><br>
-    <a href="CSS1.html"> <h3> My CSS page 1 </h3></a><br> 
-    <a href="CSS2.html"> <h3> My CSS page 2 </h3></a><br>
-    <a href="CSS3.html"> <h3> My CSS page 3 </h3></a><br>
-    <a href="Links and Images/1main.html"> <h3> These are the images </h3></a><br>
-    <a href="Image Mapping.html/imagemap.html"> <h3> Image Mapping </h3></a><br>
-    <a href="Image Mapping.html/Product.html"> <h3> My Image mapping product </h3></a><br>
-    <a href="Image Mapping.html/imagemap.html"> <h3> My Image mapping shapes</h3></a><br>
-    <a href="table.html"> <h3> My Table Activity </h3></a><br>
-</body>
+<body>
+    <!-- Info Table -->
+<table class="info-table">
+  <thead>
+    <tr>
+      <th colspan="6">Information</th>
+    </tr>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Grade</th>
+      <th>Section</th>
+      <th>Sex</th>
+      <th>Strand</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cheska Nanlabi</td>
+      <td>16</td>
+      <td>11</td>
+      <td>Competence</td>
+      <td>Female</td>
+      <td>TVL-ICT Programming</td>
+    </tr>
+    <tr>
+      <th colspan="6">About</th>
+    </tr>
+    <tr>
+      <th>Achievements</th>
+      <th>Interests</th>
+      <th>Hobbies</th>
+      <th>Skills</th>
+      <th>Goals</th>
+      <th>Education</th>
+    </tr>
+    <tr>
+      <td>Achiever Since Elementary</td>
+      <td>Playing Musical Instruments, Reading Books, Solving Puzzles, Baking and Fashion Styling</td>
+      <td>Calligraphy, Reading Non-Fiction Books, Solving Crosswords</td>
+      <td>Calligraphies and Solving Crossword Puzzles</td>
+      <td>To have a Stable Job and Live Comfortably</td>
+      <td>Cielito Zamora Senior High School (Programming)</td>
+    </tr>
+    <tr>
+      <th colspan="6">More Information</th>
+    </tr>
+    <tr>
+      <th>Address</th>
+      <th>Email</th>
+      <th>Phone</th>
+      <th>Birthday</th>
+      <th>Dream Career</th>
+      <th>Motto</th>
+    </tr>
+    <tr>
+      <td>Caloocan City, Philippines</td>
+      <td>nanlabicheska916@gmail.com</td>
+      <td>+63 912 345 6789</td>
+      <td>August 7, 2009</td>
+      <td>Web Developer</td>
+      <td>"Strive for progress, not perfection."</td>
+    </tr>
+  </tbody>
+</table>
 
+
+  <h1 style="text-align:center;">My Activities</h1>
+
+  <div class="grid-container">
+
+    <!-- First Box with Links -->
+    <div class="box">
+      <hr>
+      <h2>Links of My Activities for the First Quarter</h2>
+      <div class="links-list">
+        <a href="chesresume.html">My Resume Activity</a>
+        <a href="chesbasics.html">My Basics Activity</a>
+        <a href="activity.html">Activity in .Net</a>
+        <a href="attributes.html">My Attributes Activity</a>
+        <a href="color.html">My Color Activity</a>
+        <a href="quiz 1 page1.html">My Quiz 1 Page 1</a>
+        <a href="quiz1page2.html">My Quiz 1 Page 2</a>
+        <a href="CSS1.html">My CSS Page 1</a>
+        <a href="CSS2.html">My CSS Page 2</a>
+        <a href="CSS3.html">My CSS Page 3</a>
+        <a href="Links and Images/1main.html">These are the Images</a>
+        <a href="Image Mapping.html/imagemap.html">Image Mapping</a>
+        <a href="Image Mapping.html/Product.html">My Image Mapping Product</a>
+        <a href="Image Mapping.html/imagemap.html">My Image Mapping Shapes</a>
+        <a href="table.html">My Table Activity</a>
+      </div>
+    </div>
+
+    <!-- Placeholder Boxes -->
+    <div class="box">
+      <h2>Second Box</h2>
+      <p>Content goes here...</p>
+    </div>
+
+    <div class="box">
+      <h2>Third Box</h2>
+      <p>Content goes here...</p>
+    </div>
+
+    <div class="box">
+      <h2>Fourth Box</h2>
+      <p>Content goes here...</p>
+    </div>
+
+  </div>
+</body>
 </html>

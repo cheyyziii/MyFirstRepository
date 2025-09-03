@@ -1,32 +1,98 @@
-body{
-    background-color: #ba8cd9;
+/* General */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f8f6fc;
+  margin: 2rem;
+  color: #333;
 }
-th, td {
-  border: 1px solid black;
-  border-radius: 10px;
-  box-shadow: 4px 4px 5px rgba(0,0,0,0.3);
-  padding: 10px;
+
+/* Resume Table */
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
 }
-th, td{
-    border-style: inset;
+
+.info-table th, 
+.info-table td {
+  border: 1px solid #eee;
+  padding: 1rem;
+  text-align: center;
 }
-th, td{
-    background-color:hsl(280, 74%, 79%);
-    border-color: #240128;
+
+.info-table thead th {
+  background: #6a0dad;
+  color: #fff;
 }
-a:link {
-    color: #240128;
-    text-decoration: none;
+
+.info-table tbody th {
+  background: #f3e8ff;
+  color: #4b0082;
 }
-a:visited {
-    color: #240128;
-    text-decoration: none;
+
+/* Grid Layout for Activities */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
 }
-a:hover {
-    color: #240128;
-    text-decoration: underline;
+
+/* Boxes */
+.box {
+  background: #fff;
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-a:active {
-    color: #240128;
-    text-decoration: underline;
+
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+/* Box Titles */
+.box h2 {
+  text-align: center;
+  color: #4b0082;
+  margin-bottom: 1rem;
+}
+
+/* Links inside boxes */
+.links-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.links-list a {
+  text-decoration: none;
+  color: #4b0082;
+  font-weight: 500;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.links-list a:hover {
+  background: #f3e8ff;
+  color: #000;
+}
+
+/* Responsive Layout */
+@media (max-width: 1200px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
 }
