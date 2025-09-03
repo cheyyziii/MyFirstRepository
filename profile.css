@@ -14,3 +14,19 @@ th, td{
     background-color:hsl(280, 74%, 79%);
     border-color: #240128;
 }
+a:link {
+    color: #240128;
+    text-decoration: none;
+}
+a:visited {
+    color: #240128;
+    text-decoration: none;
+}
+a:hover {
+    color: #240128;
+    text-decoration: underline;
+}
+a:active {
+    color: #240128;
+    text-decoration: underline;
+}
