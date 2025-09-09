@@ -1,0 +1,40 @@
+.head{
+    background-color: rgb(194, 113, 241);
+    width: 92%;
+    float: left;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px grey;
+    height: 200px;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.content{
+    background-color: rgb(193, 187, 246);
+    width: 92%;
+    float: left;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px grey; 
+    height: 300px;
+    padding: 15px;
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.sub-content{
+    box-sizing: border-box;
+    /* ...existing code... */
+    background-color: rgb(233, 211, 246);
+    float: left;
+    border: 2px solid black;
+    margin: 2%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px grey;
+    width: 25%;
+    height: 150px;
+    margin-top: 60px;
+}
