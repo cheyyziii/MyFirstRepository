@@ -1,0 +1,100 @@
+.styles{
+    border: 8px solid rgb(213, 130, 255);
+    padding: 10px;
+    width: 90%;
+    height: auto;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+h1{
+    margin-left: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dotted{
+    border-style: dotted;
+}
+.dashed{
+    border-style: dashed;
+}
+.solid{
+    border-style: solid;
+}
+.double{
+    border-style: double;
+}
+.groove{
+    border-style: groove;
+}
+.ridge{
+    border-style: ridge;
+}
+.inset{
+    border-style: inset;
+}
+.outset{
+    border-style: outset;
+}
+.none{
+    border-style: none;
+}
+.hidden{
+    border-style: hidden;
+}
+.mixed{
+    border-style: dotted dashed solid double;
+}
+
+.dotted, .dashed, .solid, .double, .groove, .ridge, .inset, .outset, .none, .hidden, .mixed{
+    border-width: 5px;
+    padding: 10px;
+    margin: 2%;
+    width: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.widths{
+    border: 8px solid rgb(213, 130, 255);
+    padding: 10px;
+    width: 90%;
+    height: auto;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.solid-2px{
+    border-width: 2px;
+    border-style: solid;
+}
+
+.groove-15px{
+    border-width: 15px;
+    border-style: groove;
+}
+
+.ridge-35px{
+    border-width: 35px;
+    border-style: ridge;
+}
+
+.thin{
+    border-width: thin;
+    border-style: ridge;
+}
+
+.medium{
+    border-width: medium;
+    border-style: inset;
+}
+
+.thick{
+    border-width: thick;
+    border-style: outset;
+}
+
+.solid-2px, .groove-15px, .ridge-35px, .thin, .medium, .thick{
+    margin: 2%;
+    width: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
