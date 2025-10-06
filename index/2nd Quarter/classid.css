@@ -1,0 +1,119 @@
+.head{
+    background-color: rgb(194, 113, 241);
+    width: 92%;
+    float: left;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px grey;
+    height: 200px;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.content{
+    background-color: rgb(224, 167, 235);
+    width: 92%;
+    float: left;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px grey; 
+    height: 800px;
+    padding: 15px;
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.sub-content{
+    box-sizing: border-box;
+    /* ...existing code... */
+    background-color: rgb(233, 211, 246);
+    float: left;
+    border: 2px solid black;
+    margin: 2%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px grey;
+    width: 25%;
+    height: 150px;
+    margin-top: 60px;
+}
+
+.dessert{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(170, 0, 255);
+    border-radius: 50px;
+}
+
+.vegetables{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 97, 229);
+    border-radius: 50px;
+}
+
+.fruits{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif, Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(71, 142, 212);
+    border-radius: 50px;
+}
+
+#box1{
+    background-color: rgb(167, 108, 239);
+}
+
+#box2{
+    background-color: rgb(147, 255, 145);
+}
+
+#box3{
+    background-color: rgb(242, 97, 242);
+}
+
+#box4{
+    background-color: rgb(97, 184, 242);
+}
+
+#box5{
+    background-color: rgb(179, 115, 79);
+}
+
+#box6{
+    background-color: rgb(255, 0, 0);
+}
+
+#box7{
+    background-color: rgb(244, 193, 29);
+}
+
+#box8{
+    background-color: rgb(232, 140, 41);
+}
+
+#box9{
+    background-color: rgb(117, 0, 0);
+}
+
+/* ...existing code... */
+
+.head:hover,
+.content:hover,
+.sub-content:hover,
+#box1:hover,
+#box2:hover,
+#box3:hover,
+#box4:hover,
+#box5:hover,
+#box6:hover,
+#box7:hover,
+#box8:hover,
+#box9:hover {
+    transform: translateY(-8px) scale(1.04);
+    box-shadow: 0 12px 24px rgba(123, 3, 182, 0.18);
+    border-color: rgb(170, 0, 255);
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+/* ...existing code... */

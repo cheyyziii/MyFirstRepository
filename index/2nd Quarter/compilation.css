@@ -1,0 +1,57 @@
+/* General page styling */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f8f6fc;
+  margin: 2rem;
+  color: #333;
+}
+
+/* Table styling */
+table {
+  width: 60%;
+  margin: 0 auto; /* center the table */
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Table header */
+thead {
+  background: #6a0dad; /* nice purple */
+  color: #fff;
+}
+
+th {
+  text-align: left;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+/* Table rows */
+td {
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+tr:last-child td {
+  border-bottom: none; /* remove last border */
+}
+
+/* Hover effect */
+tbody tr:hover {
+  background: #f2e6fa;
+  transition: background 0.3s ease;
+}
+
+/* Link styling */
+a {
+  text-decoration: none;
+  color: #6a0dad;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}

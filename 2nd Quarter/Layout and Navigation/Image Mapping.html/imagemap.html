@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Mapping</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+  <header>
+        <h3>My Activities for the First Semester - Second Quarter</h3>
+</header>
+<section>
+  <nav>
+    <ul>
+      <li><a> 2nd Quarter Activities </a></li>
+      <li><a href="chesresume.html"> My Resume </a></li>
+      <li><a href="chesbasics.html">Basics</a></li>
+      <li><a href="activity.html">Activity in .Net</a></li>
+      <li><a href="attributes.html"> Attributes </a></li>
+      <li><a href="color.html"> Colors </a></li>
+      <li><a href="quiz 1 page1.html">Quiz (Page 1)</a></li>
+      <li><a href="quiz1page2.html">Quiz (Page 1)</a></li>
+      <li><a href="Links and Images/1main.html">Image Map </a></li>
+      <li><a href="Image Mapping.html/menu.html">Image Map (Menu)</a></li>
+      <li><a class="active">Image Map (Shapes)</a></li>
+      <li><a href="table.html">Table </a></li>
+    </ul>
+  </nav>
+<article>
+    <img src="Main.png" alt="" usemap="#image-map">
+
+    <map name="image-map">
+      <area shape="rect" coords="93, 81, 355, 320" 
+      alt="square" href="square.html">
+
+      <area shape="rect" coords="458, 68, 1560, 329" 
+      alt="rectangle" href="rectangle.html">
+
+      <area shape="circle" coords="213, 528, 185" 
+      alt="circle" href="circle.html">
+      
+       <area shape="poly" coords="658, 350, 827, 477, 764, 684, 553, 683, 488, 477" 
+      alt="pentagon" href="pentagon.html">
+
+      <area shape="poly" coords="1021, 384, 1721, 394, 1568, 629, 843, 632" 
+      alt="parallelogram" href="parallelogram.html">
+    </map>
+</article>
+</body>
+</html>

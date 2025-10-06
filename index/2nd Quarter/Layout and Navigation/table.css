@@ -1,0 +1,16 @@
+body{
+    background-color: #EBD6FB;
+}
+th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 4px 4px 5px rgba(0,0,0,0.3);
+  padding: 10px;
+}
+th, td{
+    border-style: inset;
+}
+th, td{
+    background-color:#ffb3c6;
+    border-color: #740420;
+}

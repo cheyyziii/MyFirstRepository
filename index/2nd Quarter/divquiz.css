@@ -1,0 +1,80 @@
+.head{
+    background-color: powderblue;
+    width: 98%;
+    height: 100px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 3px 10px 10px rgb(240, 71, 42);
+    border: 1px solid rgb(240, 71, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article{
+    background-color: white;
+    width: 80%;
+    height: 100px;
+    margin-left: 7%;
+    margin-top: 3%;
+    border-radius: 25px;
+    box-shadow: 1px 10px 10px yellow;
+    border: 1px solid yellow;
+}
+
+.image1{
+    background-color: rgb(222, 221, 221);
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    margin-left: 9%;
+    margin-top: 3%;
+    margin-right: 1%;
+    border-radius: 50px;
+    box-shadow: 1px 10px 10px blue;
+    border: 1px solid blue;
+    float: left;
+}
+
+.image2{
+    background-color: rgb(222, 221, 221);
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    margin-top: 3%;
+    margin-right: 1%;
+    border-radius: 50px;
+    box-shadow: 1px 10px 10px blue;
+    border: 1px solid blue;
+    float: left;
+}
+
+.image3{
+    background-color: rgb(222, 221, 221);
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    margin-top: 3%;
+    border-radius: 50px;
+    box-shadow: 1px 10px 10px blue;
+    border: 1px solid blue;
+    float: left;
+}
+
+.kuromi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sanrio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Kuromi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

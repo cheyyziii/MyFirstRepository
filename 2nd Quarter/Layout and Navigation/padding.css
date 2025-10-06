@@ -1,0 +1,106 @@
+.single{
+    border: 8px solid rgb(213, 130, 255);
+    padding: 10px;
+    width: 90%;
+    height: 300px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.left-padding{
+    padding-left: 10px;
+    border: 5px solid rgb(203, 171, 217);
+    border-radius: 20px;
+    float: left;
+}
+
+.right-padding{
+    padding-right: 15px;
+    border: 5px solid rgb(203, 171, 217);
+    border-radius: 20px;
+    float: left;
+    margin-left: 2%;
+}
+
+.top-padding{
+    padding-top: 25px;
+    border: 5px solid rgb(203, 171, 217);
+    border-radius: 20px;
+    float: left;
+    margin-left: 2%;
+}
+
+.bottom-padding{
+    padding-bottom: 35px;
+    border: 5px solid rgb(203, 171, 217);
+    border-radius: 20px;
+    float: left;
+    margin-left: 2%;
+}
+
+.multiple{
+    border: 8px solid rgb(213, 130, 255);
+    padding: 10px;
+    width: 90%;
+    height: 500px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.top-right-padding{
+    padding-top: 10px;
+    padding-right: 10px;
+    border: 5px solid rgb(203, 171, 217);
+    border-radius: 20px;
+    float: left;
+}
+
+.right-bottom-padding{
+    padding-bottom: 15px;
+    padding-right: 15px;
+    border: 5px solid rgb(203, 171, 217);
+    border-radius: 20px;
+    float: left;
+    margin-left: 2%;
+}
+
+.bottom-left-padding{
+    padding-bottom: 25px;
+    padding-left: 25px;
+    border: 5px solid rgb(203, 171, 217);
+    border-radius: 20px;
+    float: left;
+    margin-left: 2%;
+}
+
+.left-top-padding{
+    padding-top: 35px;
+    padding-left: 35px;
+    border: 5px solid rgb(203, 171, 217);
+    border-radius: 20px;
+    float: left;
+    margin-left: 2%;    
+}
+
+.all-sides{
+    border: 8px solid rgb(213, 130, 255);
+    padding: 10px;
+    width: 90%;
+    height: 250px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.all-sides-padding{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 5px solid rgb(203, 171, 217);
+    border-radius: 20px;
+    float: left;
+}
+
+.heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

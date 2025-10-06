@@ -1,0 +1,62 @@
+/* Reset defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body setup */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* Big container → acts as a box holding 4 cards */
+.big-container {
+  background: #ffffff;
+  border: 2px solid #ccc;
+  border-radius: 16px;
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2x2 layout */
+  gap: 1rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  width: 45%; /* two boxes fit side by side */
+}
+
+/* Parent div → individual country card */
+.parent-div {
+  background: #e6f4ff;
+  border: 2px solid #d3a2e1;
+  border-radius: 12px;
+  padding: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect for cards */
+.parent-div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Country title */
+.parent-div h1 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: #b86fd0;
+  border-bottom: 2px solid #d3a2e1;
+  padding-bottom: 0.3rem;
+}
+
+/* Child info */
+.child-div p,
+.parent-div > div p {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}

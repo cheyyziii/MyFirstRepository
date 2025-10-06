@@ -1,0 +1,51 @@
+.marginbox{
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(3, 80px);
+    gap: 0;
+    border: 2px solid black;
+    width: max-content;
+    margin: 10px;
+    margin-top: 2px;
+    float: left;
+}
+
+.sideboxmargin{
+    background-color: lightblue;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left{
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 5px;
+    float: left;
+}
+
+#right{
+    background-color: white;
+    border: 1px solid black;
+    margin-right: 5px;
+    float: left;
+}
+
+#top{
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 5px;
+    float: left;
+}
+
+#bottom{
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    float: left;
+}
+
+h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

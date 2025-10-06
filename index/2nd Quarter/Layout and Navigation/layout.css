@@ -47,7 +47,6 @@ footer {
   padding: 10px;
   text-align: center;
   color: white;
-  border: 3px solid #3E1E68;
 }
 
 @media (max-width: 600px) {
