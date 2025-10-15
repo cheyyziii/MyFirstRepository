@@ -27,20 +27,20 @@
 }
 
 /* Remove default bullets */
-ul {
+ul .list{
   list-style: none;
   padding-left: 0;
-  margin: 0;
+  margin: 0;  
 }
 
 /* Custom arrow bullets */
-ul li {
+ul .list li {
   position: relative;
   padding-left: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
-ul li::before {
+ul .list li::before {
   content: "";
   position: absolute;
   top: 50%;

@@ -11,25 +11,6 @@
       line-height: 1.6;
     }
 
-    /* ===== Header ===== */
-    header {
-      background-color: #3396D3;
-      padding: 15px;
-      text-align: center;
-      font-size: 35px;
-      color: white;
-      border-bottom: 2px solid #34699A;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      border: 2px solid #34699A;
-      border-bottom: 0px;
-    }
-
-    header h2 {
-      margin: 0;
-      font-weight: 700;
-      letter-spacing: 1px;
-    }
-
     /* ===== Navigation ===== */
     nav ul {
       width: 100%;
@@ -39,14 +20,21 @@
       justify-content: center;
       align-items: center;
       list-style-type: none;
-      position: sticky;
-      top: 0;
       border: 2px solid #34699A;
       gap: 10px;
       z-index: 1000;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      position: relative;
+      position: sticky;
+      top: 0;
     }
-
+    nav ul li a {
+      position: sticky;
+      position: relative;
+      top: 0;
+      z-index: 1000;
+    }
+    
     nav a {
       text-decoration: none;
       color: #333;
@@ -61,6 +49,14 @@
       color: black;
       transform: scale(1.05);
       transition: all 0.3s ease;
+    }
+
+    nav ul li.left {
+      margin-right: auto;
+      font-size: 24px;
+      font-weight: bold;
+      color: rgb(0, 0, 0);
+      padding-left: 20px;
     }
 
     /* ===== Main Content ===== */
@@ -94,6 +90,9 @@
       color: white;
       border: 2px solid #34699A;
       box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+      position: relative;
+      position: sticky;
+      bottom: 0;
     }
 
     /* ===== Responsive Design ===== */
