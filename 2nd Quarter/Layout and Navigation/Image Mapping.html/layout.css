@@ -1,54 +1,132 @@
+/* ===== General Reset ===== */
 * {
-  box-sizing: border-box;
-}
-
-body, footer p, header, nav, article, section {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-/* Style the header */
-header {
-  background-color: #6B3F69;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 20%;
-  height: auto; /* only for demonstration, should be removed */
-  background: #C5B0CD;
-  border: 3px solid #3E1E68;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
   margin: 0;
-  text-align: center;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-article {
-  float: left;
-  padding: 20px;
-  width: 80%;
-  height: auto;
-  background-color: #EBD6FB;
-  height: 417px; /* only for demonstration, should be removed */
+body {
+  background-color: #f7f3fc;
+  color: #333;
+  line-height: 1.6;
 }
 
-/* Style the footer */
-footer {
-  background-color: #6B3F69;
-  padding: 10px;
-  text-align: center;
+/* ===== Header ===== */
+header {
+  background-color: #7a4bc9;
   color: white;
-  border: 3px solid #3E1E68;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+header h3 {
+  font-size: 24px;
+}
+
+/* ===== Layout (Section with Nav + Article) ===== */
+section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* ===== Navigation ===== */
+nav {
+  flex: 1;
+  min-width: 220px;
+  background-color: #cbb9ec;
+  padding: 15px;
+  border-right: 2px solid #7a4bc9;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+}
+
+nav a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #4a2673;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+  background-color: #a07be0;
+  color: white;
+  transform: translateX(5px);
+}
+
+nav a.active {
+  background-color: #7a4bc9;
+  color: white;
+}
+
+/* ===== Article ===== */
+article {
+  flex: 3;
+  background-color: white;
+  padding: 25px;
+}
+
+article h1 {
+  font-size: 26px;
+  color: #7a4bc9;
+  margin-bottom: 15px;
+}
+
+article p {
+  font-size: 18px;
+  color: #444;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #7a4bc9;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+  section {
+    flex-direction: column;
+  }
+
+  nav, article {
+    width: 100%;
+  }
+
+  nav {
+    border-right: none;
+    border-bottom: 2px solid #7a4bc9;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    flex-direction: column;
+  }
+
+  nav, article {
+    width: 100%;
+  }
+}
+
 
 @media (max-width: 600px) {
   nav, article {

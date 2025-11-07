@@ -1,0 +1,112 @@
+#container{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    position: static;
+}
+
+#content{
+    position: relative;
+    left: 46px; 
+    top: 47px; 
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(255, 152, 243);
+} 
+
+#container2{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    position: static;
+}
+
+#content2{
+    position: relative;
+    right: 1px; 
+    bottom: 1px; 
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(255, 152, 243);
+} 
+
+#container3{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    position: static;
+}
+
+#content3{
+    position: relative;
+    left: 25px; 
+    top: 25px; 
+    bottom: 25px;
+    right: 25px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(255, 152, 243);
+} 
+
+#container4{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    position: static;
+}
+
+#content4{
+    position: absolute;
+    left: 25px; 
+    top: 25px; 
+    bottom: 25px;
+    right: 25px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(255, 152, 243);
+} 
+
+#footer{
+    height:50px;
+    width: 100%;
+    border: 2px solid purple ;
+    background-color: rgb(253, 223, 253);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+#footer p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    background-color: rgb(253, 223, 253);
+    height: 45px;
+    width: 100%;
+    padding: 0px;
+    top: -20px;
+    left: 0px;
+}
+
+#ads{
+    height: 150px;
+    width: 150px;
+    border: 2px solid purple;
+    background-color: rgb(253, 223, 253);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#stickyheader{
+    height: 30px;
+    width: 100%;
+    position: sticky;
+    background-color: rgb(253, 223, 253);
+    border: 2px solid purple;
+}

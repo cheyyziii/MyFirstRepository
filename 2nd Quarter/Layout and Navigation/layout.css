@@ -36,7 +36,7 @@ section {
 nav {
   flex: 1;
   min-width: 220px;
-  background-color: #cbb9ec;
+  background-color:#c599f1;
   padding: 15px;
   border-right: 2px solid #7a4bc9;
 }
@@ -73,7 +73,7 @@ nav a.active {
 /* ===== Article ===== */
 article {
   flex: 3;
-  background-color: white;
+  background-color: #e6cffd ;
   padding: 25px;
 }
 

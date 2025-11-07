@@ -1,0 +1,10 @@
+.profile-pic {
+  text-align: center; /* Centers inline elements like img */
+  margin-bottom: 20px;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+  height: 230px;
+  width: 15%;
+}

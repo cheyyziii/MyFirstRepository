@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body, footer p, header, nav, article, section {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #6B3F69;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: auto; /* only for demonstration, should be removed */
+  background: #C5B0CD;
+  border: 3px solid #3E1E68;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: auto;
+  background-color: #EBD6FB;
+  height: 417px; /* only for demonstration, should be removed */
+}
+
+/* Style the footer */
+footer {
+  background-color: #6B3F69;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border: 3px solid #3E1E68;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+nav li a {
+  display: block;
+  color: black; 
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link and background color on hover */
+
+ul li a:hover:not(.active) {
+  background-color: #E9B3FB;
+}
+
+ul li a.active {
+  background-color: #5D2F77;
+  color: white;
+}
+
+section {
+  overflow: auto;
+  border: 3px solid #19183B;
+}
+
+@media screen and (max-width: 800px) {
+  nav, li a{
+    width: 100;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  nav {
+    width: 100%;
+    height: auto;
+    position: relative
+  }
+  article{
+    width: 100%;
+    height: auto;
+    position: relative
+  }
+  nav ul li a {
+    float: left;
+    padding: 15px;
+  }
+}
