@@ -55,3 +55,26 @@
             break;
     }
     });
+
+    document.addEventListener("DOMContentLoaded", function () {
+    const input = document.getElementById("wordInput");
+    const button = document.getElementById("checkWord");
+    const result = document.getElementById("wordResult");
+
+    button.addEventListener("click", function () {
+        const word = input.value.trim();
+
+        if (word === "") {
+            result.textContent = "Please enter a word first!";
+            return;
+        }
+
+        // Count letters using a loop
+        let count = 0;
+        for (let i = 0; i < word.length; i++) {
+            count++;
+        }
+
+        result.textContent = `The word "${word}" has ${count} letters.`;
+    });
+});
